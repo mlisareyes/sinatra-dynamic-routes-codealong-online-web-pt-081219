@@ -23,5 +23,9 @@ class App < Sinatra::Base
     puts "#{params[:num1]} * #{params[:num2]}"
   end
 
+  get '/multiply/:num1/:num2' do
+    
+  end
+
 
 end
