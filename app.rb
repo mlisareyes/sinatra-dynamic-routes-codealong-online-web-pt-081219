@@ -21,7 +21,6 @@ class App < Sinatra::Base
 
   get '/multiply' do
   end
-  end
 
 
 end
